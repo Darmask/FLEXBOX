@@ -1,0 +1,30 @@
+body {
+    background-color : #cccccc; 
+}
+
+.contenedor {
+        border: 10px solid black ;
+        background-color: #fff; 
+        margin: 50px ;
+        width: 500px ;
+        height: 1000px ;
+   
+    /**flexbox*/ 
+    display: flex ;
+    flex-direction: column;
+    /*flex-direction:column-reverse;*/ /*para arreglar el contenedor de diferentes maneras*/ 
+    /*flex-grow: wrap;*/
+    flex-wrap: wrap-reverse;
+    flex-flow:  column;
+    justify-content: flex-end;
+} 
+
+.elemento {
+    background-color :darkgoldenrod;
+    margin: 5px ;
+    color: white ;
+    text-align: center ;
+    width: 50px ;
+    height: 50px ;
+}
+            
